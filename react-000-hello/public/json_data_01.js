@@ -15,5 +15,11 @@ console.log(student.st_num);
 student.st_name = "이몽룡";
 console.log(student);
 
+/*
+JSON 객체 분해, 펼치기, Spread
+student 객체에 저장된 값 중에서 st_name, st_dept 속성에
+저장된 값만 추출하고, st_name, st_dept 단일변수를 선언하여
+저장해달라
+*/
 const { st_name, st_dept } = student;
 console.log(st_name, st_dept);
