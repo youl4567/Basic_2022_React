@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# JavaScript Full Stack Project
+* nodejs.org 접속하여 nodejs 설치하기
+* 윈도우 cmd 를 관리자 권한으로 실행하기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Nodejs 보조 도구들을 설치하기
+* 윈도우 cmd를 관리자 권한으로 실행
 
-## Available Scripts
+### create-react-app : react 프로젝트 초기 작성 template
+* npm install -g create-react-app
 
-In the project directory, you can run:
+### nodemon : 소스코드 변경시 자동 재실행 도구
+* npm install -g nodemon
 
-### `npm start`
+### npm : nodejs project manager, dependency 설정
+* npm install -g npm@8.13.1
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## react 프로젝트 보조 도구들을 설차하기
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### yarn : npm 과 같은 일을 하는 프로젝트 관리자
+* react 프로젝트에서는 npm 보다 yarn 을 더 많이 사용한다. 의존성 관리가 더 잘 된다
+* npm install -g yarn
 
-### `npm test`
+## React project 만들기
+* vscode 터미널을 오픈하여 명령으로 실행하기
+/workspace/React_2022/```create-react-app 프로젝트명```
+``` create-react-app hello```
+* react 프로젝트 이름은 영문소문자, 숫자, 마이너스(-) 문자를 조합하여 작성한다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## vsCode 에서 터미널 열기
+* 메뉴에서 터미널/새 터미널 열기를 선택하면 project root(workspace) 에서 터미널 열기 : 새로운 프로젝트를 생성하기 위한 터미널 열기
 
-### `npm run build`
+* 프로젝트 생성 후 프로젝트 폴더에서 마우스 우클릭하여 통합 터미널 열기 : 프로젝트를 시작하거나 Dependency 를 설치하기 위한 터미널 열기
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
