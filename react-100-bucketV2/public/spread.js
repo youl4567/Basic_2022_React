@@ -21,3 +21,9 @@ for (let i = 0; i < json_array.length; i++) {
 
 const new_array4 = json_array.concat();
 console.log(new_array4);
+
+const new_array5 = json_array.map((item) => {
+  return item;
+});
+
+// spread(확장, 펼치기)
